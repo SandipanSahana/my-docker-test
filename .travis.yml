@@ -13,7 +13,7 @@ deploy :
     app : "dock"
     env : "Dock-env"
     bucket_name : "elasticbeanstalk-eu-west-2-050418195270"
-    bucket_path : "dock"
+    bucket_path : "docker"
     on :
         branch : master
     access_key_id : $AWS_ACCESS_KEY
